@@ -8,7 +8,7 @@ function React01() {
         </div>
     );
 
-    return <>jsx1</>;
+    return <>{jsx1}</>;
 }
 
 export default React01;
