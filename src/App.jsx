@@ -18,6 +18,11 @@ import Hook08 from "./ReactStudy/Hook08";
 import Emotion1 from "./Emotion/Emotion1";
 import Hook09 from "./ReactStudy/Hook09";
 import Index from "./TodoList/Pages/Index";
+import { BrowserRouter } from "react-router-dom";
+import Router01 from "./RouterStudy/Router01/Router01";
+import Router02 from "./RouterStudy/Router02/Router02";
+import Router03 from "./RouterStudy/Router03/Router03";
+import Router04 from "./RouterStudy/Router04/Router04";
 
 function App() {
     // const name = "홍길동";
@@ -25,32 +30,41 @@ function App() {
 
     return (
         <>
-            {/* <React01 />
-            <React02 /> */}
-            {/* <React03
-                name={name}
-                age={age}
-                address={"조선시대"}
-                tel={"987-6543-2109"}
-            /> */}
-            {/* <React04>
-                <h1>자식요소</h1>
-            </React04> */}
-            {/* <Hook01 /> */}
-            {/* <CountState /> */}
-            {/* <Hook03 /> */}
-            {/* <Hook04 /> */}
-            {/* <Hook05 /> */}
-            {/* <Hook06 /> */}
-            {/* <Hook07 /> */}
-            {/* <Render /> */}
-            {/* <LifeCycleApp /> */}
-            {/* <FruitsFilter /> */}
-            {/* <SignupForm /> */}
-            {/* < Hook08 /> */}
-            {/* < Emotion1 /> */}
-            {/* < Hook09 /> */}
-            <Index />
+            <BrowserRouter>
+                {/* <React01 /> */}
+                {/* <React02 /> */}
+                {/* <React03
+                    name={name}
+                    age={age}
+                    address={"조선시대"}
+                    tel={"987-6543-2109"}
+                /> */}
+                {/* <React04>
+                    <h1>자식요소</h1>
+                </React04> */}
+                {/* <Hook01 /> */}
+                {/* <CountState /> */}
+                {/* <Hook03 /> */}
+                {/* <Hook04 /> */}
+                {/* <Hook05 /> */}
+                {/* <Hook06 /> */}
+                {/* <Hook07 /> */}
+                {/* <Render /> */}
+                {/* <LifeCycleApp /> */}
+                {/* <FruitsFilter /> */}
+                {/* <SignupForm /> */}
+                {/* < Hook08 /> */}
+                {/* < Emotion1 /> */}
+                {/* < Hook09 /> */}
+                {/* <Index /> */}
+                {/* <Router01 /> */}
+                {/* <Router02 /> */}
+                {/* <Router03 /> */}
+                <Router04 />
+            </BrowserRouter>
+
+            {/** BrowserRouter로 감싸진 내부에 있는 컴포넌트들만
+             * Routes, Route, Link, useNavigation 같은 라우터 기능을 쓸 수 있다. */}
         </>
     );
 }
